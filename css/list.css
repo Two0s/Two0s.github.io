@@ -20,10 +20,17 @@
 .list_box {
     color: #fff;
 }
-.list_center, .list_play_box {
+.list_play_box {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.list_center  {
+    display: flex;
+    align-items: center;
+    justify-content: start;
     width: 80%;
     margin: 0 auto;
 }

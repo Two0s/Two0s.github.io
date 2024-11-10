@@ -42,6 +42,7 @@
 @media (max-width: 500px) {
     .VideoLogoBox img {
         width: 420px;
+        margin-top: 50%;
     }
     .plot_img_box iframe {
         width: 560px;
@@ -55,6 +56,6 @@
         font-size: 10px;
     }
     .ImgLogoBox {
-        margin-top: 80%;
+        margin-top: 65%;
     }
 }

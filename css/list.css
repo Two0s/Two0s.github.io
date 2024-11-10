@@ -81,6 +81,17 @@
     color: #fff;
     justify-content: center;
 }
+.hrTagBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2% 0;
+}
+.hrTag {
+    height: 1px;
+    border-bottom: 1px solid #fff;
+    width: 80%;
+}
 
 
 @media (max-width: 500px) {
@@ -106,4 +117,13 @@
         justify-content: center;
         font-size: 10px;
     }
+    .hrTagBox {
+        margin: 10% 0;
+    }
+    .hrTag {
+        height: 1px;
+        border-bottom: 1px solid #fff;
+        width: 100%;
+    }
+    
 }

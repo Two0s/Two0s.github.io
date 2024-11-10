@@ -59,6 +59,13 @@
     align-items: center;
     justify-content: end;
 }
+.member {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: center;
+}
+
 @media (max-width: 500px) {
     .plot_img_box a img {
         width: 390px;
@@ -71,4 +78,11 @@
     .story_box span {
         padding: 5px;
     }
+    .member {
+        display: flex;
+        align-items: center;
+        color: #fff;
+        justify-content: center;
+        font-size: 10px;
+    }   
 }

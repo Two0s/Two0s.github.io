@@ -54,4 +54,7 @@
         justify-content: center;
         font-size: 10px;
     }
+    .ImgLogoBox {
+        margin-top: 80%;
+    }
 }

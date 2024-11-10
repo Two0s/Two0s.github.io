@@ -56,5 +56,12 @@
         margin: 0 auto;
         width: 350px !important;
     }
-
+    
+    .member {
+        display: flex;
+        align-items: center;
+        color: #fff;
+        justify-content: center;
+        font-size: 10px;
+    }
 }

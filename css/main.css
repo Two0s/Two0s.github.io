@@ -41,7 +41,7 @@
 
 @media (max-width: 500px) {
     .VideoLogoBox img {
-        width: 420px;
+        width: 400px;
         margin-top: 50%;
     }
     .plot_img_box iframe {

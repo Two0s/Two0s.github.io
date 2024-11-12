@@ -1,7 +1,22 @@
+@font-face {
+    font-family: 'PretendardLight';
+    src: url('/font/Pretendard-Light.otf') format('woff');
+}
+@font-face {
+    font-family: 'PretendardBold';
+    src: url('/font/Pretendard-ExtraBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'PretendardExtraLight';
+    src: url('/font/Pretendard-ExtraLight.woff') format('woff');
+}
 * {
     background-color: #000;
     padding: 3px;
+    font-family: 'PretendardLight' ;
 }
+
 .index_container {
     height: 100%;
 }
@@ -37,6 +52,8 @@
     align-items: center;
     color: #fff;
     justify-content: center;
+    font-family: 'PretendardExtraLight' !important;
+    cursor: default;
 }
 
 @media (max-width: 500px) {

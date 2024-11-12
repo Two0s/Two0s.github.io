@@ -1,3 +1,16 @@
+@font-face {
+    font-family: 'PretendardLight';
+    src: url('/font/Pretendard-Light.otf') format('woff');
+}
+@font-face {
+    font-family: 'PretendardBold';
+    src: url('/font/Pretendard-ExtraBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'PretendardExtraLight';
+    src: url('/font/Pretendard-ExtraLight.woff') format('woff');
+}
 * {
     background-color: #000;
 }
@@ -32,4 +45,6 @@
 }
 .menuList h1 {
     color: #fff;
+    font-family: 'PretendardBold' !important;
+    cursor: pointer;
 }

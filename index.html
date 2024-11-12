@@ -18,4 +18,13 @@
     </div>
 </div>
 </body>
+<script>
+    const video = document.getElementById("logo_video");
+
+    video.addEventListener("pause", () => {
+        if (video.paused) {  
+            video.play();
+        }
+    });
+</script>
 </html>

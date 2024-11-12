@@ -117,8 +117,9 @@
     border-bottom: 1px solid #fff;
     width: 80%;
 }
-
-
+.vacation {
+    padding: 3px;
+}
 @media (max-width: 500px) {
     * {
         padding: 1px;
@@ -152,9 +153,10 @@
         width: 100%;
     }
     .vacation {
-        width: 150px;
+        padding: 0 !important;
+        width: 42%;
     }
     .pepero {
-        width: 250px;
+        width: 75%;
     }
 }

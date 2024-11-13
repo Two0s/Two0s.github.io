@@ -65,6 +65,10 @@
     width: 100px;
     height: 100px;
 }
+.hashTag {
+    width: 23%;
+    padding-left: 0;
+}
 .story_box span {
     background: #fff;
     border-radius: 20px;
@@ -105,4 +109,7 @@
         justify-content: center;
         font-size: 10px;
     }   
+    .hashTag {
+        width: 70%;
+    }
 }
